@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none !important;
+}
+.theme-color{
+	color: #757575 !important;
+}
+
+.bg__wrapp{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./wrap.jpg")center/cover no-repeat;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	position: relative;
+}
+.main_nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.navbar-brand img{
+	width: 185px;
+	height: 100px;
+	object-fit: fill;
+}
+.form__data{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	padding: 3rem;
+	width: 100%;
+	height: 65vh;
+}
+/*form-control*/
+.form-control{
+	color: red !important;
+	border: none !important;
+	outline: none !important;
+	background-color: #333333 !important;
+}
+.form-control:focus {
+	color: red !important;
+	border-bottom: 3px solid #e87033 !important;
+	background-color: #333333 !important;
+	border-color: none !important;
+	outline: 10 !important;
+	box-shadow: none !important;
+	transition: all 0.3s;
+}
+.form .label-color{
+	color: #8c8c8c !important;
+}
+.theme-btn{
+	padding: 0.7rem !important;
+	color: #fff !important;
+	font-size: 1.4rem !important;
+	background: red !important;
+	border-bottom: transparent !important;
+	filter: drop-shadow(0.1rem 0.1rem 0.1rem red);
+}
+/*form__footer__setting*/
+.form__footer__setting{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.fb_link a img{
+	width: 25px;
+	height: 25px;
+	object-fit: fill;
+}
